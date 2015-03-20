@@ -1,0 +1,26 @@
+<!doctype html>
+<style type="text/css">
+	#mainPopup {
+		padding: 10px;
+		height: 100px;
+		width: 200px;
+		font-family: Helvetica, Ubuntu, Arial, sans-serif;
+	}
+	h1 {
+		font-size: 2em;
+	}
+</style>
+
+<div id="mainPopup">
+<h1>Show element</h1>
+<input type="radio" name="status" value="on">ON
+<input type="radio" name="status" value="off">OFF
+<input type="button" value="OK" onclick="a()">
+<p id="x">dd</p>
+</div>
+
+<script>
+function a(){
+     document.getElementById("x").innerHTML = "xxxxxxxxxxxxx";
+}
+</script>
